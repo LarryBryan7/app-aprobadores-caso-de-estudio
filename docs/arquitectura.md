@@ -33,7 +33,6 @@ Sistema donde finalmente se registra el resultado de la operación (autorizada o
 ## Por qué esta arquitectura (y qué **no** es)
 
 - **No es una arquitectura de microservicios.** Es una integración punto a punto entre un cliente móvil y un ecosistema GeneXus/Bantotal ya existente.
-- **No hay API Gateway, contenedores ni orquestación** — no participé en, ni tengo evidencia de, ese tipo de infraestructura para este proyecto.
 - **SOAP no fue una elección "moderna"**, fue la forma de integración consistente con cómo GeneXus exponía sus Procedures en este ecosistema al momento del proyecto.
 
 ## Diagrama de secuencia del flujo de autorización
