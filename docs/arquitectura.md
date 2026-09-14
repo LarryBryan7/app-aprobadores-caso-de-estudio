@@ -38,4 +38,4 @@ Sistema donde finalmente se registra el resultado de la operación (autorizada o
 
 ## Diagrama de secuencia del flujo de autorización
 
-Ver [`desarrollo.md`](desarrollo.md) para el detalle del flujo con datos ficticios.
+Ver <a href="desarrollo.md" target="_blank" rel="noopener noreferrer"><code>desarrollo.md</code></a> para el detalle del flujo con datos ficticios.
