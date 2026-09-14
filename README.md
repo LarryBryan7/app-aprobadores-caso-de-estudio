@@ -1,7 +1,8 @@
 # App Aprobadores — Financiera Confianza
 
-> ⚠️ **Este repositorio es documentación, no código fuente.**
-> App Aprobadores es propiedad de Financiera Confianza. El código fuente es confidencial y no puede publicarse. Este repositorio solo documenta el proyecto, mi contribución específica y capturas de pantalla — no contiene ni contendrá archivos de código de la app real.
+Este repositorio es documentación, no código fuente.
+
+App Aprobadores es propiedad de Financiera Confianza. El código fuente es confidencial y no puede publicarse. Este repositorio  documenta el proyecto, mi contribución y capturas de pantalla — no contiene ni contendrá archivos de código de la app real.
 
 ## Descripción
 
