@@ -3,7 +3,7 @@
 Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
 
 > **Proyecto empresarial — código propietario.**
-> Este repositorio es un **case study de documentación**. No contiene código fuente, procedures, WSDL, endpoints, credenciales ni ningún artefacto real del sistema. Todo ejemplo técnico incluido (XML, diagramas, datos) es **ilustrativo**, construido para explicar el funcionamiento general y mi contribución.
+> Este repositorio es un **caso estudio de documentación**. No contiene código fuente, procedures, WSDL, endpoints, credenciales ni ningún artefacto real del sistema. Todo ejemplo técnico incluido (XML, diagramas, datos) es **ilustrativo**, construido para explicar el funcionamiento general y mi contribución.
 
 ---
 
