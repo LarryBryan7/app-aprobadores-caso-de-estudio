@@ -12,7 +12,9 @@ App Android nativa (Java) usada internamente por analistas de Financiera Confian
 
 | Home (shell de navegación) | Módulo Tasas Pasivas |
 |---|---|
-| ![Home](screenshots/home.png) | ![Tasas Pasivas](screenshots/tasas-pasivas.png) |
+| ![Home](<img width="720" height="1520" alt="1" src="https://github.com/user-attachments/assets/974eb825-9e40-4393-a452-aebf186c8379" />
+) | ![Tasas Pasivas](<img width="720" height="1520" alt="2" src="https://github.com/user-attachments/assets/8513cdbb-76cf-4383-97b4-84f32e02b271" />
+) |
 
 *(capturas propias, sin datos sensibles ni credenciales)*
 
