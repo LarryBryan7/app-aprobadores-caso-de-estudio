@@ -23,10 +23,3 @@ Se usó Lottie para comunicar visualmente los estados de "procesando" y "confirm
 ## PhotoView para documentos/imágenes
 
 Las operaciones podían tener imágenes o documentos asociados. Se integró PhotoView para permitir al analista hacer zoom sobre esas imágenes antes de tomar la decisión de autorizar o rechazar — relevante quando el detalle visual importa para validar la operación.
-
-## Qué **no** se incluye aquí
-
-No presento como decisión técnica nada que no pueda sostener con el contexto real del proyecto. En particular, no afirmo:
-- Que se haya evaluado o descartado una arquitectura de microservicios.
-- Que exista documentación formal de decisiones de arquitectura (ADR) del proyecto original.
-- Que las decisiones de UI/UX hayan sido validadas con métricas de uso — fueron decisiones de diseño e implementación, no resultado de un proceso de investigación de usuarios documentado.

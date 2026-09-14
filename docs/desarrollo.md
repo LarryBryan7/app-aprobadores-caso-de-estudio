@@ -37,7 +37,7 @@ Validación de los servicios SOAP antes de integrarlos con la app:
 
 ## Caso de estudio técnico: flujo de autorización
 
-> ⚠️ **Ejemplo ilustrativo.** Los nombres de campos, servicios y la estructura del XML son ficticios y no corresponden a contratos, endpoints ni datos reales del sistema. Su único propósito es explicar la mecánica general del flujo.
+> **Ejemplo ilustrativo.** Los nombres de campos, servicios y la estructura del XML son ficticios y no corresponden a contratos, endpoints ni datos reales del sistema. Su único propósito es explicar la mecánica general del flujo.
 
 ```mermaid
 sequenceDiagram

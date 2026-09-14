@@ -2,8 +2,8 @@
 
 Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
 
-> 🔒 **Proyecto empresarial — código propietario.**
-> Este repositorio es un **case study de documentación**. No contiene código fuente, procedures, WSDL, endpoints, credenciales ni ningún artefacto real del sistema. Todo ejemplo técnico incluido (XML, diagramas, datos) es **ilustrativo y ficticio**, construido solo para explicar el funcionamiento general y mi contribución.
+> **Proyecto empresarial — código propietario.**
+> Este repositorio es un **caso estudio de documentación**. No contiene código fuente, procedures, WSDL, endpoints, credenciales ni ningún artefacto real del sistema. Todo ejemplo técnico incluido (XML, diagramas, datos) es **ilustrativo**, construido para explicar el funcionamiento general y mi contribución.
 
 ---
 
@@ -31,7 +31,7 @@ Aplicación Android nativa que permitía a analistas de Financiera Confianza con
 
 ## Resumen
 
-App Aprobadores era una herramienta móvil interna para analistas de Financiera Confianza, orientada a la consulta y autorización de operaciones sobre el core bancario Bantotal: créditos, retiros, tasas pasivas, depósitos de plazo fijo y operaciones de clientes migrantes. Participé en tres de esos módulos (tasas pasivas, retiros, operaciones de clientes migrantes), tanto en la integración con los servicios que consumían Bantotal como en el desarrollo Android y en la navegación principal de la app.
+App Aprobadores era una herramienta móvil interna para analistas de Financiera Confianza, orientada a la consulta y autorización de operaciones sobre el core bancario Bantotal: créditos, retiros, tasas pasivas, depósitos de plazo fijo y operaciones de clientes migrantes. Participé en tres de esos módulos (tasas pasivas, retiros y créditos, operaciones de clientes migrantes), tanto en la integración con los servicios que consumían Bantotal como en el desarrollo Android y en la navegación principal de la app.
 
 ## La problemática
 
@@ -66,19 +66,17 @@ El analista iniciaba sesión con su usuario y contraseña de Bantotal, y podía 
 4. La app muestra el estado de **validación** mientras se procesa la solicitud contra los servicios integrados con Bantotal.
 5. La app confirma que **la operación fue autorizada** con éxito.
 
-*Datos de la captura ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`).*
-
 ## Mi participación
 
-**No desarrollé la aplicación completa.** Participé específicamente en tres módulos funcionales y en la navegación principal:
+Participé específicamente en tres módulos funcionales y en la navegación principal y Autorizaciones:
 
 - Tasas pasivas
-- Retiros
+- Op. Retiros y créditos  
 - Operaciones de clientes migrantes
 
 Mi contribución cubrió dos frentes: el backend/integración de esos tres flujos (Procedures GeneXus expuestos como servicios SOAP sobre Bantotal) y el desarrollo Android de esos módulos, más el rediseño de la navegación principal de la app completa.
 
-### Android / Java
+### Android Frontend / Java
 Desarrollo de las pantallas de bandeja, detalle y confirmación de mis tres módulos; lógica de aprobación/rechazo; procesamiento de las respuestas de los servicios y actualización del estado de la operación en la UI.
 
 ### GeneXus / Bantotal
@@ -201,5 +199,3 @@ App Aprobadores es propiedad de Financiera Confianza. Este repositorio:
 - No contiene datos de clientes, DNI, números de cuenta ni información financiera u operativa real.
 - Cualquier XML, diagrama o dato técnico mostrado aquí es **ficticio e ilustrativo**.
 - Cualquier captura de pantalla debe estar previamente sanitizada/anonimizada y solo se publica si existe autorización para usarla — ver <a href="screenshots/README.md" target="_blank" rel="noopener noreferrer"><code>screenshots/README.md</code></a>.
-
-Para más detalle técnico, con gusto lo explico en una entrevista.
