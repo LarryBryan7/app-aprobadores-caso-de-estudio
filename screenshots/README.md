@@ -12,8 +12,6 @@ Espacio preparado para las capturas de este case study. Ninguna captura se publi
 
 Si no existe autorización confirmada para publicar capturas de la interfaz real, la alternativa es **recrear la interfaz con datos ficticios** (por ejemplo, en Figma o similar) y etiquetar la imagen explícitamente como:
 
-> Recreación para portfolio — no es una captura del sistema real.
-
 ## Capturas recomendadas
 
 | # | Pantalla | Qué debería mostrar |
