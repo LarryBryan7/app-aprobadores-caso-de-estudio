@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="180" />
+</p>
+
 # App Aprobadores — Financiera Confianza
 
 Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
@@ -110,19 +114,19 @@ flowchart TD
 - **Procedures GeneXus:** lógica de negocio que traduce la solicitud del analista en operaciones sobre Bantotal.
 - **Bantotal:** core bancario donde finalmente se registra la autorización/rechazo.
 
-Más detalle en <a href="docs/arquitectura.md" target="_blank" rel="noopener noreferrer"><code>docs/arquitectura.md</code></a>.
+Más detalle en [`docs/arquitectura.md`](docs/arquitectura.md).
 
 ## Backend e integración
 
 Diseñé e implementé los Procedures GeneXus de tasas pasivas, retiros y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre Bantotal. La app Android consumía estos servicios mediante XML sobre HTTPS, y participé en la integración de punta a punta (app → servicio → Bantotal) para estos tres flujos.
 
-Detalle técnico y un flujo ilustrativo (con datos ficticios) en <a href="docs/desarrollo.md" target="_blank" rel="noopener noreferrer"><code>docs/desarrollo.md</code></a>.
+Detalle técnico y un flujo ilustrativo (con datos ficticios) en [`docs/desarrollo.md`](docs/desarrollo.md).
 
 ## Desarrollo Android
 
 App Android nativa en Java. En mis tres módulos: pantallas de bandeja (listado de operaciones pendientes), pantallas de detalle, pantallas de confirmación, lógica de autorizar/rechazar, procesamiento de la respuesta del servicio y actualización del estado de la operación.
 
-Detalle completo en <a href="docs/desarrollo.md" target="_blank" rel="noopener noreferrer"><code>docs/desarrollo.md</code></a>.
+Detalle completo en [`docs/desarrollo.md`](docs/desarrollo.md).
 
 ## UI/UX y navegación
 
@@ -130,7 +134,7 @@ La app usaba originalmente un menú lateral (drawer). Implementé un nuevo shell
 
 ## Flujo de autorización
 
-Ejemplo ilustrativo de extremo a extremo (ver el detalle y el XML de ejemplo en <a href="docs/desarrollo.md" target="_blank" rel="noopener noreferrer"><code>docs/desarrollo.md</code></a>):
+Ejemplo ilustrativo de extremo a extremo (ver el detalle y el XML de ejemplo en [`docs/desarrollo.md`](docs/desarrollo.md)):
 
 ```mermaid
 sequenceDiagram
@@ -166,7 +170,7 @@ Validación de los servicios SOAP con **SoapUI** (obtención/consulta de WSDL, e
 
 ## Decisiones técnicas
 
-Más detalle y razonamiento en <a href="docs/decisiones-tecnicas.md" target="_blank" rel="noopener noreferrer"><code>docs/decisiones-tecnicas.md</code></a>. En resumen:
+Más detalle y razonamiento en [`docs/decisiones-tecnicas.md`](docs/decisiones-tecnicas.md). En resumen:
 
 - Android nativo (Java) como plataforma cliente.
 - SOAP como mecanismo de integración, consistente con el ecosistema GeneXus/Bantotal ya existente.
@@ -184,7 +188,7 @@ La aplicación permitió a analistas de Financiera Confianza gestionar determina
 
 Según referencia directa del Scrum Master del proyecto, la funcionalidad desarrollada en App Aprobadores fue posteriormente migrada e integrada en una nueva aplicación corporativa de Financiera Confianza, desarrollada en Flutter. No participé en ese desarrollo — se menciona únicamente como contexto de la evolución del producto.
 
-**Aplicación corporativa actual / evolución de la solución:** <a href="https://play.google.com/store/apps/details?id=pe.confianza.cliente" target="_blank" rel="noopener noreferrer">Google Play</a>
+**Aplicación corporativa actual / evolución de la solución:** [Google Play](https://play.google.com/store/apps/details?id=pe.confianza.cliente)
 
 ## Stack tecnológico
 
@@ -198,4 +202,4 @@ App Aprobadores es propiedad de Financiera Confianza. Este repositorio:
 - No contiene WSDL, endpoints, IPs, credenciales, tokens ni certificados reales.
 - No contiene datos de clientes, DNI, números de cuenta ni información financiera u operativa real.
 - Cualquier XML, diagrama o dato técnico mostrado aquí es **ficticio e ilustrativo**.
-- Cualquier captura de pantalla debe estar previamente sanitizada/anonimizada y solo se publica si existe autorización para usarla — ver <a href="screenshots/README.md" target="_blank" rel="noopener noreferrer"><code>screenshots/README.md</code></a>.
+- Cualquier captura de pantalla debe estar previamente sanitizada/anonimizada y solo se publica si existe autorización para usarla — ver [`screenshots/README.md`](screenshots/README.md).
