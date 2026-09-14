@@ -7,13 +7,11 @@
 
 App Android nativa (Java) usada internamente por analistas de Financiera Confianza para autorizar operaciones crediticias sobre el core bancario **Bantotal**, vía procedures **GeneXus** expuestos como servicios SOAP/XML. La app permite revisar bandejas de operaciones pendientes y confirmar o rechazar cada una, con observaciones.
 
-## Capturas
+## Demo
 
-| Home (shell de navegación) | Módulo Tasas Pasivas |
-|---|---|
-| ![Home](screenshots/home.png) | ![Tasas Pasivas](screenshots/tasas-pasivas.png) |
+![Flujo de autorización](screenshots/demo.gif)
 
-*(capturas propias, sin datos sensibles ni credenciales)*
+*Bandeja de Tasas Pasivas → detalle de la operación → confirmación con contraseña → validación → resultado. Datos de la captura ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`).*
 
 ## Mi contribución
 
