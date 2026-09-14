@@ -25,7 +25,7 @@ Cliente móvil usado por el analista. Responsable de:
 Capa de exposición: recibe las solicitudes XML de la app y las traduce en ejecuciones de Procedures GeneXus. Es el punto de integración entre el mundo móvil y el ecosistema GeneXus/Bantotal.
 
 ### Procedures GeneXus
-Lógica de negocio del lado del servidor. Cada uno de mis tres módulos (tasas pasivas, retiros, operaciones de clientes migrantes) tenía su propio Procedure, responsable de validar y ejecutar la autorización/rechazo contra Bantotal.
+Lógica de negocio del lado del servidor. Cada uno de mis módulos (tasas pasivas, retiros, créditos, operaciones de clientes migrantes) tenía su propio Procedure, responsable de validar y ejecutar la autorización/rechazo contra Bantotal.
 
 ### Core Bancario Bantotal
 Sistema donde finalmente se registra el resultado de la operación (autorizada o rechazada). Es la fuente de verdad del negocio; la app y los servicios existen para dar una vía de acceso móvil a una porción específica de sus procesos de autorización.

@@ -1,10 +1,10 @@
 # Desarrollo
 
-Detalle de mi contribución, separado por área. Cubre exclusivamente los tres módulos en los que participé: **tasas pasivas, retiros y operaciones de clientes migrantes.**
+Detalle de mi contribución, separado por área. Cubre exclusivamente los módulos en los que participé: **tasas pasivas (Autorizaciones), retiros y créditos (Operaciones), y operaciones de clientes migrantes.**
 
 ## Android / Java
 
-App Android nativa en Java. En mis tres módulos desarrollé:
+App Android nativa en Java. En mis módulos desarrollé:
 
 - **Pantallas de bandeja** — listado de operaciones pendientes de autorización.
 - **Pantallas de detalle** — información de la operación seleccionada.
@@ -14,11 +14,11 @@ App Android nativa en Java. En mis tres módulos desarrollé:
 
 ## GeneXus / Bantotal
 
-Diseñé e implementé los Procedures en GeneXus para los tres flujos mencionados, expuestos como servicios web SOAP sobre el core bancario Bantotal. Estos Procedures son los responsables de validar la solicitud del analista y ejecutar la autorización o el rechazo contra Bantotal.
+Diseñé e implementé los Procedures en GeneXus para los flujos mencionados, expuestos como servicios web SOAP sobre el core bancario Bantotal. Estos Procedures son los responsables de validar la solicitud del analista y ejecutar la autorización o el rechazo contra Bantotal.
 
 ## SOAP / XML
 
-La comunicación entre la app Android y los servicios se realizaba mediante intercambio de XML sobre HTTPS. Participé en la integración de punta a punta: app móvil → servicio SOAP → Procedure GeneXus → Bantotal, para mis tres flujos.
+La comunicación entre la app Android y los servicios se realizaba mediante intercambio de XML sobre HTTPS. Participé en la integración de punta a punta: app móvil → servicio SOAP → Procedure GeneXus → Bantotal, para mis flujos.
 
 ## UI/UX
 

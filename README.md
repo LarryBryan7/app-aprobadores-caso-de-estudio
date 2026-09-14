@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="180" />
-</p>
-
-# App Aprobadores — Financiera Confianza
+# <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="40" valign="middle" /> App Aprobadores — Financiera Confianza
 
 Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
 
@@ -35,7 +31,7 @@ Aplicación Android nativa que permitía a analistas de Financiera Confianza con
 
 ## Resumen
 
-App Aprobadores era una herramienta móvil interna para analistas de Financiera Confianza, orientada a la consulta y autorización de operaciones sobre el core bancario Bantotal: créditos, retiros, tasas pasivas, depósitos de plazo fijo y operaciones de clientes migrantes. Participé en tres de esos módulos (tasas pasivas, retiros y créditos, operaciones de clientes migrantes), tanto en la integración con los servicios que consumían Bantotal como en el desarrollo Android y en la navegación principal de la app.
+App Aprobadores era una herramienta móvil interna para analistas de Financiera Confianza, orientada a la consulta y autorización de operaciones sobre el core bancario Bantotal: créditos, retiros, tasas pasivas, depósitos de plazo fijo y operaciones de clientes migrantes. Participé en los módulos de tasas pasivas (categoría Autorizaciones), retiros y créditos (categoría Operaciones), y operaciones de clientes migrantes, tanto en la integración con los servicios que consumían Bantotal como en el desarrollo Android y en la navegación principal de la app.
 
 ## La problemática
 
@@ -72,30 +68,30 @@ El analista iniciaba sesión con su usuario y contraseña de Bantotal, y podía 
 
 ## Mi participación
 
-Participé específicamente en tres módulos funcionales y en la navegación principal y Autorizaciones:
+Participé específicamente en los siguientes módulos y en la navegación principal:
 
-- Tasas pasivas
-- Op. Retiros y créditos  
-- Operaciones de clientes migrantes
+- **Tasas pasivas** — dentro de la categoría **Autorizaciones**.
+- **Retiros y créditos** — dentro de la categoría **Operaciones**.
+- **Operaciones de clientes migrantes**.
 
-Mi contribución cubrió dos frentes: el backend/integración de esos tres flujos (Procedures GeneXus expuestos como servicios SOAP sobre Bantotal) y el desarrollo Android de esos módulos, más el rediseño de la navegación principal de la app completa.
+Mi contribución cubrió dos frentes: el backend/integración de esos flujos (Procedures GeneXus expuestos como servicios SOAP sobre Bantotal) y el desarrollo Android de esos módulos, más el rediseño de la navegación principal de la app completa.
 
 ### Android Frontend / Java
-Desarrollo de las pantallas de bandeja, detalle y confirmación de mis tres módulos; lógica de aprobación/rechazo; procesamiento de las respuestas de los servicios y actualización del estado de la operación en la UI.
+Desarrollo de las pantallas de bandeja, detalle y confirmación de mis módulos; lógica de aprobación/rechazo; procesamiento de las respuestas de los servicios y actualización del estado de la operación en la UI.
 
 ### GeneXus / Bantotal
-Diseño e implementación de Procedures en GeneXus para los flujos de tasas pasivas, retiros y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre el core bancario Bantotal.
+Diseño e implementación de Procedures en GeneXus para los flujos de tasas pasivas, retiros, créditos y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre el core bancario Bantotal.
 
 ### SOAP / XML
-La app Android consumía estos servicios mediante intercambio de XML sobre HTTPS. Participé en la integración entre la app móvil, los servicios y Bantotal para estos tres flujos.
+La app Android consumía estos servicios mediante intercambio de XML sobre HTTPS. Participé en la integración entre la app móvil, los servicios y Bantotal para estos flujos.
 
 ### UI/UX
-Rediseño del shell de navegación principal (de menú lateral a `BottomNavigationView`), transiciones animadas (Animatoo), animaciones de estado (Lottie), pantallas modales de confirmación y zoom de imágenes/documentos (PhotoView) — aplicado a mis tres módulos.
+Rediseño del shell de navegación principal (de menú lateral a `BottomNavigationView`), transiciones animadas (Animatoo), animaciones de estado (Lottie), pantallas modales de confirmación y zoom de imágenes/documentos (PhotoView) — aplicado a mis módulos.
 
 ### Testing
 Validación de los servicios SOAP con SoapUI (consulta de WSDL, ejecución de requests, validación de respuestas) y Postman.
 
-**Fuera de mi participación:** el resto de módulos de la app (créditos, depósitos de plazo fijo, y las bandejas/backend de otros flujos no listados arriba).
+**Fuera de mi participación:** el resto de módulos de la app (depósitos de plazo fijo, y las bandejas/backend de otros flujos no listados arriba).
 
 ## Arquitectura
 
@@ -118,13 +114,13 @@ Más detalle en [`docs/arquitectura.md`](docs/arquitectura.md).
 
 ## Backend e integración
 
-Diseñé e implementé los Procedures GeneXus de tasas pasivas, retiros y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre Bantotal. La app Android consumía estos servicios mediante XML sobre HTTPS, y participé en la integración de punta a punta (app → servicio → Bantotal) para estos tres flujos.
+Diseñé e implementé los Procedures GeneXus de tasas pasivas, retiros, créditos y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre Bantotal. La app Android consumía estos servicios mediante XML sobre HTTPS, y participé en la integración de punta a punta (app → servicio → Bantotal) para estos flujos.
 
 Detalle técnico y un flujo ilustrativo (con datos ficticios) en [`docs/desarrollo.md`](docs/desarrollo.md).
 
 ## Desarrollo Android
 
-App Android nativa en Java. En mis tres módulos: pantallas de bandeja (listado de operaciones pendientes), pantallas de detalle, pantallas de confirmación, lógica de autorizar/rechazar, procesamiento de la respuesta del servicio y actualización del estado de la operación.
+App Android nativa en Java. En mis módulos: pantallas de bandeja (listado de operaciones pendientes), pantallas de detalle, pantallas de confirmación, lógica de autorizar/rechazar, procesamiento de la respuesta del servicio y actualización del estado de la operación.
 
 Detalle completo en [`docs/desarrollo.md`](docs/desarrollo.md).
 
@@ -164,7 +160,7 @@ Validación de los servicios SOAP con **SoapUI** (obtención/consulta de WSDL, e
 
 - Integrar un cliente Android nativo con servicios SOAP/XML expuestos desde GeneXus, en un ecosistema (Bantotal) pensado originalmente para interfaces de escritorio, no para consumo móvil.
 - Procesar y validar XML de request/response de forma confiable dentro del ciclo de vida de una app Android.
-- Mantener consistencia en los flujos de autorización/rechazo de tres módulos distintos (tasas pasivas, retiros, migrantes), cada uno con su propia lógica de negocio en Bantotal.
+- Mantener consistencia en los flujos de autorización/rechazo de módulos distintos (tasas pasivas, retiros, créditos, migrantes), cada uno con su propia lógica de negocio en Bantotal.
 - Rediseñar la navegación principal (de drawer a `BottomNavigationView`) sin romper el acceso a los módulos ya existentes de otros equipos dentro de la misma app.
 - Diseñar una experiencia de confirmación (modal + comentario opcional) que fuera clara para el analista antes de una acción que impacta directamente el core bancario.
 
@@ -180,7 +176,7 @@ Más detalle y razonamiento en [`docs/decisiones-tecnicas.md`](docs/decisiones-t
 
 ## Resultado
 
-La aplicación permitió a analistas de Financiera Confianza gestionar determinadas autorizaciones desde dispositivos móviles, integrándose con servicios empresariales asociados al core bancario Bantotal, para los flujos de tasas pasivas, retiros y operaciones de clientes migrantes.
+La aplicación permitió a analistas de Financiera Confianza gestionar determinadas autorizaciones desde dispositivos móviles, integrándose con servicios empresariales asociados al core bancario Bantotal, para los flujos de tasas pasivas, retiros, créditos y operaciones de clientes migrantes.
 
 *(No incluyo cifras de usuarios, volumen de operaciones ni métricas de mejora: no tengo esos datos confirmados.)*
 

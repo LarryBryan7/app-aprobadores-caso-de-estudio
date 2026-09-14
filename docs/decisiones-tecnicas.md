@@ -4,7 +4,7 @@ Decisiones que pueden derivarse razonablemente del contexto del proyecto. No inc
 
 ## Android nativo (Java) como plataforma cliente
 
-La app se desarrolló en Android nativo con Java. No participé en la decisión original de la plataforma (la app ya existía cuando me incorporé a estos módulos), pero sí desarrollé mis tres flujos siguiendo ese mismo enfoque, por consistencia con el resto de la aplicación.
+La app se desarrolló en Android nativo con Java. No participé en la decisión original de la plataforma (la app ya existía cuando me incorporé a estos módulos), pero sí desarrollé mis flujos siguiendo ese mismo enfoque, por consistencia con el resto de la aplicación.
 
 ## SOAP como mecanismo de integración
 
