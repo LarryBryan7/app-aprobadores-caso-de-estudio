@@ -14,7 +14,7 @@ App Android nativa (Java) usada internamente por analistas de Financiera Confian
   <img src="screenshots/demo.gif" alt="Flujo de autorización" width="290" />
 </p>
 
-*Bandeja de Tasas Pasivas → detalle de la operación → confirmación con contraseña → validación → resultado. Datos de la captura ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`).*
+*Bandeja de Tasas Pasivas → detalle de la operación → confirmación con contraseña → validación → resultado.*
 
 ## Mi contribución
 
