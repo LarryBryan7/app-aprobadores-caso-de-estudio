@@ -23,4 +23,4 @@ Si no existe autorización confirmada para publicar capturas de la interfaz real
 
 ## Estado actual
 
-`demo.gif` está publicado: recorre el flujo de autorización del módulo de Tasas Pasivas con datos ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`, montos y códigos de ejemplo). Ninguna de las capturas incluye datos reales de clientes, usuarios ni información financiera real.
+Publicadas 6 capturas estáticas (`01-bandeja.jpg` a `06-resultado.jpg`) que recorren el flujo de autorización del módulo de Tasas Pasivas, mostradas en cuadrícula en el README principal. Datos ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`, montos y códigos de ejemplo). Ninguna incluye datos reales de clientes, usuarios ni información financiera real.

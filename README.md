@@ -54,17 +54,23 @@ El analista iniciaba sesión con su usuario y contraseña de Bantotal, y podía 
 5. **Envío e integración** — la decisión se enviaba a los servicios que la conectaban con Bantotal.
 6. **Actualización de estado** — la app reflejaba el resultado de la operación.
 
-<p align="center">
-  <img src="screenshots/demo.gif" alt="Flujo de autorización" width="290" />
-</p>
-
 ### Ejemplo: flujo de autorización de Tasas Pasivas
+
+| 1. Bandeja | 2. Operación pendiente | 3. Detalle |
+|---|---|---|
+| <img src="screenshots/01-bandeja.jpg" width="220" /> | <img src="screenshots/02-bandeja-pendiente.jpg" width="220" /> | <img src="screenshots/03-detalle.jpg" width="220" /> |
+
+| 4. Confirmación | 5. Validando | 6. Resultado |
+|---|---|---|
+| <img src="screenshots/04-confirmacion.jpg" width="220" /> | <img src="screenshots/05-validando.jpg" width="220" /> | <img src="screenshots/06-resultado.jpg" width="220" /> |
 
 1. El analista entra al módulo de **Tasas Pasivas** y ve la bandeja de operaciones pendientes.
 2. Selecciona una operación y revisa su **detalle** (cliente, agencia, tasa máxima vs. tasa solicitada).
 3. Decide **autorizar**, y en el modal de confirmación agrega un comentario opcional e ingresa su contraseña.
 4. La app muestra el estado de **validación** mientras se procesa la solicitud contra los servicios integrados con Bantotal.
 5. La app confirma que **la operación fue autorizada** con éxito.
+
+*Datos ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`).*
 
 ## Mi participación
 
