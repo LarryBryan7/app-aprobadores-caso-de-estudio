@@ -1,4 +1,4 @@
-# 📱 App Aprobadores — Financiera Confianza <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="70" valign="middle" />
+# 📲 App Aprobadores — Financiera Confianza <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="70" valign="middle" />
 
 Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
 
