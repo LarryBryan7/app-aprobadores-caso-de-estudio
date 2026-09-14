@@ -25,4 +25,4 @@ Si no existe autorización confirmada para publicar capturas de la interfaz real
 
 ## Estado actual
 
-Pendiente: aún no se ha confirmado la autorización para publicar capturas de la interfaz real de App Aprobadores. Hasta confirmarlo, esta carpeta no debe usarse como evidencia visual en el portafolio.
+`demo.gif` está publicado: recorre el flujo de autorización del módulo de Tasas Pasivas con datos ficticios (`CLIENTE GENERICO`, `ASESOR DEFAULT`, montos y códigos de ejemplo). Ninguna de las capturas incluye datos reales de clientes, usuarios ni información financiera real.
