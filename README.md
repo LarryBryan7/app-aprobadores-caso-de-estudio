@@ -1,9 +1,22 @@
 # 📲 App Aprobadores — Financiera Confianza <img src="assets/financiera-confianza-logo.png" alt="Financiera Confianza" width="70" valign="middle" />
 
-Aplicación Android nativa que permitía a analistas de Financiera Confianza consultar y autorizar operaciones financieras asociadas al core bancario **Bantotal**, desde un dispositivo móvil.
+Solución full stack para la autorización de operaciones bancarias en Financiera Confianza: **servicios backend en GeneXus sobre el core bancario Bantotal**, expuestos como **SOAP** y consumidos por una **app Android nativa en Java**.
 
 > **Proyecto empresarial — código propietario.**
 > Este repositorio es un **caso estudio de documentación**. No contiene código fuente, procedures, WSDL, endpoints, credenciales ni ningún artefacto real del sistema. Todo ejemplo técnico incluido (XML, diagramas, datos) es **ilustrativo**, construido para explicar el funcionamiento general y mi contribución.
+
+---
+
+## En resumen
+
+`GeneXus` · `Bantotal` · `Java` · `SOAP / WSDL` · `XML` · `Android` · `SoapUI` · `Postman` · `Scrum`
+
+- **Backend:** diseñé e implementé Procedures en **GeneXus** sobre el core bancario **Bantotal**, expuestos como servicios web **SOAP**.
+- **Integración:** conecté de punta a punta app → servicio SOAP → Procedure GeneXus → Bantotal, con intercambio de **XML sobre HTTPS**.
+- **Frontend:** desarrollé en **Java (Android nativo)** las pantallas y la lógica de autorización y rechazo que consumen esos servicios.
+- **Dominio bancario:** flujos de tasas pasivas, retiros, créditos y operaciones de clientes migrantes, **en producción**.
+- **Nuevas funcionalidades y evolutivos** sobre una aplicación y un core bancario ya existentes, en un equipo **Scrum**.
+- **Pruebas** de los servicios con **SoapUI** (WSDL, requests, validación de respuestas) y **Postman**.
 
 ---
 
@@ -80,16 +93,16 @@ Participé específicamente en los siguientes módulos y en la navegación princ
 - **Retiros y créditos** — dentro de la categoría **Operaciones**.
 - **Operaciones de clientes migrantes**.
 
-Mi contribución cubrió dos frentes: el backend/integración de esos flujos (Procedures GeneXus expuestos como servicios SOAP sobre Bantotal) y el desarrollo Android de esos módulos, más el rediseño de la navegación principal de la app completa.
+Mi contribución fue full stack: el backend y la integración de esos flujos (Procedures GeneXus expuestos como servicios SOAP sobre Bantotal) y el desarrollo Android en Java de esos módulos, más el rediseño de la navegación principal de la app completa.
 
-### Android Frontend / Java
-Desarrollo de las pantallas de bandeja, detalle y confirmación de mis módulos; lógica de aprobación/rechazo; procesamiento de las respuestas de los servicios y actualización del estado de la operación en la UI.
-
-### GeneXus / Bantotal
+### Backend — GeneXus / Bantotal
 Diseño e implementación de Procedures en GeneXus para los flujos de tasas pasivas, retiros, créditos y operaciones de clientes migrantes, expuestos como servicios web SOAP sobre el core bancario Bantotal.
 
-### SOAP / XML
-La app Android consumía estos servicios mediante intercambio de XML sobre HTTPS. Participé en la integración entre la app móvil, los servicios y Bantotal para estos flujos.
+### Integración — SOAP / XML
+La app Android consumía estos servicios mediante intercambio de XML sobre HTTPS. Participé en la integración de punta a punta entre la app móvil, los servicios y Bantotal para estos flujos.
+
+### Frontend — Android / Java
+Desarrollo de las pantallas de bandeja, detalle y confirmación de mis módulos; lógica de aprobación/rechazo; procesamiento de las respuestas de los servicios y actualización del estado de la operación en la UI.
 
 ### UI/UX
 Rediseño del shell de navegación principal (de menú lateral a `BottomNavigationView`), transiciones animadas (Animatoo), animaciones de estado (Lottie), pantallas modales de confirmación y zoom de imágenes/documentos (PhotoView) — aplicado a mis módulos.
@@ -194,7 +207,11 @@ Según referencia directa del Scrum Master del proyecto, la funcionalidad desarr
 
 ## Stack tecnológico
 
-Java · Android SDK · GeneXus · Bantotal · SOAP · XML · HTTPS · Material Design · `BottomNavigationView` · Lottie · Animatoo · PhotoView · SoapUI · Postman · Git
+- **Backend y core bancario:** GeneXus · Bantotal
+- **Integración:** SOAP · WSDL · XML · HTTPS
+- **Frontend móvil:** Java · Android SDK · Material Design · `BottomNavigationView` · Lottie · Animatoo · PhotoView
+- **Pruebas:** SoapUI · Postman
+- **Metodología y control de versiones:** Scrum · Git
 
 ## Confidencialidad
 
